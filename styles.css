@@ -24,6 +24,7 @@
     display: flex;
     justify-content: space-around;
     gap: 30px;
+    margin-bottom: 100px;
 }
 .right-links{
     display: flex;
@@ -32,11 +33,17 @@
 
 .header-content{
     display: flex;
-    margin: 150px;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
 }
 
 .header-text{
-    width: 300px;
+    width: 450px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .right-links, .hero-secondary {
@@ -52,3 +59,4 @@
     text-align: center;
     text-decoration: none;
 }
+
