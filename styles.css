@@ -12,7 +12,6 @@
 .header{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
 }
 
 .left-logo{
@@ -60,3 +59,113 @@
     text-decoration: none;
 }
 
+.second-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.second-section-header{
+    margin-bottom:50px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.card-placeholder{
+    display: flex;
+    gap:30px;
+}
+
+.card{
+    width: 150px;
+    text-align: center;
+}
+
+.card-image{
+    width: 150px;
+}
+
+.porsche-card-image{
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.bmw-card-image{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 150px;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    
+    width: 1000px;
+    
+}
+
+
+.quote-author-section{
+    margin-left: 650px;
+}
+
+.quote-author {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 800;
+}
+
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.call-to-action-section{
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    padding-right:200px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.call-to-action-span{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.sign-up-button{
+    margin-left: 350px;
+    background-color: transparent;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:25px;
+    padding-right:25px;
+    border-color: #F9FAF8;
+    border-radius: 10px;
+    color: #F9FAF8;
+    border:solid;   
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
